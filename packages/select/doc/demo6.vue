@@ -14,7 +14,7 @@ import { reactive, ref } from "vue";
 const selVal = ref("");
 const state = reactive({
   selOptions: [
-    { label: "中国", value: "1" },
+    { label: "台灣", value: "1" },
     { label: "Node", value: "Node" },
     { label: "CSS", value: "CSS" },
     { label: "javascript", value: "javascript" },

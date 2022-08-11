@@ -2,7 +2,7 @@
 <template>
   <atd-select
     v-model="selVal"
-    placeholder="请选择"
+    placeholder="請選擇"
     :options="selOptions"
     labelFiled="cityName"
     valueFiled="cityCode"
@@ -19,7 +19,7 @@ const state = reactive({
     { cityName: "北京", cityCode: "131" },
     { cityName: "天津", cityCode: "332" },
     { cityName: "上海", cityCode: "289", disabled: true },
-    { cityName: "重庆", cityCode: "132" },
+    { cityName: "重慶", cityCode: "132" },
     { cityName: "深圳", cityCode: "340" },
   ],
 });
