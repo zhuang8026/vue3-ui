@@ -1,0 +1,21 @@
+<!-- html -->
+<template>
+  <m-space>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+  </m-space>
+</template>

@@ -1,0 +1,31 @@
+<!-- html -->
+<template>
+  <m-space :size="[10, 10]">
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+    <atd-button>按钮</atd-button>
+  </m-space>
+</template>

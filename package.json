@@ -1,0 +1,76 @@
+{
+  "name": "atd-ueui",
+  "author": "william_chuang",
+  "version": "0.0.8",
+  "description": "A Vue.js 3.0 Web UI Toolkit.",
+  "private": false,
+  "main": "./dist/atd-ueui.umd.js",
+  "module": "./dist/atd-ueui.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/atd-ueui.es.js",
+      "require": "./dist/atd-ueui.umd.js"
+    }
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vuejs",
+    "vite",
+    "atd-ueui",
+    "atdueui",
+    "components"
+  ],
+  "files": [
+    "dist/*"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "scripts": {
+    "dev": "vite --port 23438",
+    "build": "vite build",
+    "build:html": "vite build --config ./build/build.js",
+    "preview": "vite preview",
+    "atd-ueui": "vite build",
+    "test": "jest --runInBand",
+    "cz": "git-cz"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "highlight.js": "^11.4.0",
+    "jest": "26.6.3",
+    "pinia": "^2.0.12",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.6.0",
+    "vite-plugin-md": "^0.12.4",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14",
+    "@babel/preset-env": "^7.16.11",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "@vue/reactivity": "^3.2.31",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "babel-jest": "26.*",
+    "babel-preset-vite": "^1.0.4",
+    "eslint": "^8.13.0",
+    "eslint-plugin-vue": "^8.6.0",
+    "vite": "^2.7.2",
+    "vue-jest": "^5.0.0-alpha.10",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "engines": {
+    "node": ">= 14"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  }
+}
