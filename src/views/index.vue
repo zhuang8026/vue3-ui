@@ -84,7 +84,7 @@ const toComponents = () => {
   router.push('/atd_ueui/updatelog');
 };
 const goGuthub = () => {
-  window.open('https://github.com/zhuang8026');
+  window.open('https://github.com/zhuang8026/ATD-UEUI');
 };
 const goToNpm = () => {
   window.open('https://www.npmjs.com/package/atd-ueui');
