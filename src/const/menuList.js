@@ -9,7 +9,11 @@ export default [
       //   'title-en': 'Participation and contribution',
       //   path: '/atd_ueui'
       // },
-      // {'title-cn':'支持Mzl-UI','title-en':'Participation and contribution','path':'/atd_ueui/support'},
+      // {
+      //   'title-cn':'支持ATD-UEUI',
+      //   'title-en':'Participation and contribution',
+      //   'path':'/atd_ueui/support'
+      // },
       {
         'title-cn': '更新日志',
         'title-en': 'Participation and contribution',
@@ -25,6 +29,17 @@ export default [
       //   "title-en": "Demo Example",
       //   path: "/atd_ueui/demo",
       // },
+    ],
+  },
+  {
+    'title-cn': '模組範例',
+    'title-en': 'demo',
+    list: [
+      {
+        'title-cn': 'demo 範例',
+        'title-en': 'demo',
+        path: '/atd_ueui/demo',
+      },
     ],
   },
   {

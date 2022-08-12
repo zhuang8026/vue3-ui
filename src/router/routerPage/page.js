@@ -25,6 +25,11 @@ export default [
         component: () => import('/packages/install/doc/doc.md')
       },
       {
+        path: 'demo',
+        name: 'demo 範例',
+        component: () => import('/packages/demo/doc/doc.md')
+      },
+      {
         path: 'layout',
         name: 'Layout 佈局',
         component: () => import('/packages/layout/doc/doc.md')
