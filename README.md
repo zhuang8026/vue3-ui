@@ -19,7 +19,7 @@ npm install atd-ueui --save
 
 ### 前期準備
 
-```
+```javascript
 import { createApp } from 'vue'
 import App from '@/App.vue'
 import ATDUEUI from 'atd-ueui'
@@ -32,13 +32,13 @@ app.mount('#app');
 
 ### 引用
 
-```
+```javascript
 import { atdButton, atdInput } from 'atd-ueui'
 ```
 
 ### 輕鬆开始
 
-```
+```html
 <atd-button>默認按鈕</atd-buttonn>
 <atd-button type="primary">主要按鈕</atd-button>
 ```
