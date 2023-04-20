@@ -18,8 +18,7 @@
                 index: index,
                 index1: i,
                 path: v['path']
-              })
-            "
+              })"
           >
             {{ v['title'] }}
           </li>

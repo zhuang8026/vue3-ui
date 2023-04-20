@@ -94,11 +94,11 @@ export default [
         name: 'Optfile 文件選擇',
         component: () => import('/packages/optfile/doc/doc.md')
       },
-      // {
-      //   path: 'badge',
-      //   name: 'badge 徽章',
-      //   component: () => import('/packages/badge/doc/doc.md')
-      // },
+      {
+        path: 'badge',
+        name: 'badge 徽章',
+        component: () => import('/packages/badge/doc/doc.md')
+      },
       {
         path: 'table',
         name: 'Table 表格',
@@ -164,21 +164,21 @@ export default [
         name: 'Backtop 回到頂部',
         component: () => import('/packages/backtop/doc/doc.md')
       },
-      // {
-      //   path: 'popover',
-      //   name: 'Popover 弹窗框',
-      //   component: () => import('/packages/popover/doc/doc.md')
-      // },
-      // {
-      //   path: 'colorPicker',
-      //   name: 'colorPicker 顔色選擇器',
-      //   component: () => import('/packages/colorPicker/doc/doc.md')
-      // },
-      // {
-      //   path: 'breadcrumb',
-      //   name: 'breadcrumb 面包屑',
-      //   component: () => import('/packages/breadcrumb/doc/doc.md')
-      // },
+      {
+        path: 'popover',
+        name: 'Popover 弹窗框',
+        component: () => import('/packages/popover/doc/doc.md')
+      },
+      {
+        path: 'colorPicker',
+        name: 'colorPicker 顔色選擇器',
+        component: () => import('/packages/colorPicker/doc/doc.md')
+      },
+      {
+        path: 'breadcrumb',
+        name: 'breadcrumb 面包屑',
+        component: () => import('/packages/breadcrumb/doc/doc.md')
+      },
       {
         path: 'divider',
         name: 'divider 分割缐',
@@ -186,4 +186,4 @@ export default [
       }
     ]
   }
-]
+];

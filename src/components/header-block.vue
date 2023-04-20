@@ -39,19 +39,19 @@
         name: '元件',
         path: '/atd_ueui/updatelog', // -> /atd_ueui
       },
-      // {
-      //   name:"支持atd_ueui",
-      //   path:'open',
-      // },
-      // {
-      //   name: '更新日志',
-      //   path: '/atd_ueui/updatelog',
-      // },
-      // {
-      //   name: '问题反馈',
-      //   path: 'open',
-      //   url: 'https://github.com/Ningstyle/mzl-ui/issues',
-      // },
+      {
+        name:"支持atd_ueui",
+        path:'open',
+      },
+      {
+        name: '更新日志',
+        path: '/atd_ueui/updatelog',
+      },
+      {
+        name: '问题反馈',
+        path: 'open',
+        url: 'https://github.com/Ningstyle/mzl-ui/issues',
+      },
     ],
   });
   const { tools } = state;
